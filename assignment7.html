@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        h2{
+            margin-top: 10px;
+            font-size:40px;
+            text-align:center;
+            background:rgb(224, 222, 222);
+            margin-right:5px;
+            margin-left:5px;
+        }
+        h3{
+           font-size:26px;
+           text-align:center; 
+        }
+        .all-container{
+            border:2px solid black;
+            display:flex;
+            height:300px;
+            border-left:none;
+            border-right:none;
+            margin-left:5px;
+            margin-right:5px;
+        }
+        .container1{
+            padding-top:30px;
+            width:25%;
+            border:2px solid black;
+            background:rgb(223, 225, 223);
+            border-left:none;
+                }
+        .container2{
+            text-align:center;
+            padding-top:50px;
+            width:75%;
+            border:2px solid black;
+            border-right:none;
+            background:rgb(170, 219, 170);
+        }
+        .container2, li{
+            padding:1px;
+        }
+         .greyBorder{
+            border:1px solid black;
+            padding-top:30px;
+            padding-bottom:40px;
+            width:70%;
+            margin:auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .spacer{
+            padding:10px;
+        }
+        ul, li{
+            list-style:none;
+        }
+        label{
+            font-weight:900px;
+        }
+        input{
+            border-radius: 0px;
+            border-color: transparent;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+            padding:10px;
+            line-height: 1.5em;
+            font-weight:bold;
+        }
+        button{
+            margin-top:40px;
+            padding-left:7px;
+            padding-right:7px;
+        }
+    </style>
+    <h2>Assignment 7</h2>
+    <div class="all-container">
+    <div class="container1">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Mad Libs</a></li>
+            <li><a href="#">Tom Thumb</a></li>
+        </ul>
+    </div>
+    <div class="container2">
+        <h3 class="madlib">Mad Libs</h3>
+    <div class="spacer"></div>
+    <ul class="greyBorder">
+    <li>
+        <label>Person Name:</label>
+        <input type="text">
+    </li>
+    <li>
+        <label>Character:</label>
+        <input type="text">
+    </li>
+    <li>
+        <label>Adverb</label>
+        <input type="text">
+    </li>
+    <li>
+        <label>Adjective</label>
+        <input type="text">
+    </li>
+    <button>Tell Story</button>
+    </ul>
+    </div>
+    </div>
+</body>
+</html>
